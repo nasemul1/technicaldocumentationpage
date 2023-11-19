@@ -9,6 +9,7 @@ html, body{
 #navbar header p{
     display: block;
     padding: 10px 20px;
+    margin: 0;
     font-weight: bold;
     font-size: 22px;
     color: #0c0c0e;
