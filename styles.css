@@ -1,0 +1,123 @@
+html, body{
+    min-width: 250px;
+    color: white;
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #0c0c0e;
+}
+
+/* Nav section */
+#navbar header p{
+    display: block;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 22px;
+    color: #0c0c0e;
+    background-color: #f7e119;
+}
+
+#navbar ul{
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar li{
+    position: relative;
+    list-style: none;
+    width: 100%;
+    /* border-top: 1px solid; */
+    
+}
+
+#navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    padding: 10px 20px;
+}
+
+#navbar a:hover{
+    color: #0c0c0e;
+    background-color: #f7e119;
+}
+
+#navbar{
+    display: block;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    left: 0;
+    border-right: 2px solid #f7e119;
+    min-width: 290px;
+}
+
+/* Main section */
+section header{
+    font-weight: bold;
+    font-size: 18px;
+    display:inline;
+    padding: 3px;
+    color: #0c0c0e;
+    background-color: #f7e119;
+    border-radius: 3px;
+}
+
+::selection{
+    color: #0c0c0e;
+    background: #f7e119;
+}
+
+article p{
+    margin-left: 10px;
+}
+
+article a{
+    color: #f7e119;
+}
+
+#main-doc{
+    position: absolute;
+    margin-left: 300px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 110px;
+    font-size: 14px;
+}
+
+code{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    background-color: #21242D;
+}
+
+/* Media query section */
+@media only screen and (max-width: 815px){
+    #navbar ul {
+        border: none;
+        height: 200px;
+    }
+
+    #navbar{
+        display: block;
+        background-color: #0c0c0e;
+        position: absolute;
+        top: 0;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        max-height: 263px;
+        z-index: 1;
+        border: none;
+        border-bottom: 2px solid #f7e119;
+    }
+
+    #main-doc{
+        position: relative;
+        margin-left: 0;
+        margin-top: 275px;
+    }
+}
