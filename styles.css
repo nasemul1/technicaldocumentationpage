@@ -98,7 +98,7 @@ code{
 @media only screen and (max-width: 815px){
     #navbar ul {
         border: none;
-        height: 200px;
+        height: 185px;
     }
 
     #navbar{
@@ -109,7 +109,7 @@ code{
         margin: 0px;
         padding: 0px;
         width: 100%;
-        max-height: 263px;
+        max-height: 275px;
         z-index: 1;
         border: none;
         border-bottom: 2px solid #f7e119;
@@ -118,6 +118,6 @@ code{
     #main-doc{
         position: relative;
         margin-left: 0;
-        margin-top: 275px;
+        margin-top: 290px;
     }
 }
